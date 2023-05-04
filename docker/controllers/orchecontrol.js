@@ -38,5 +38,6 @@ export const createimageController = async (req, res) => {
     }
     catch (err) {
         console.log(err);
+        return res.json("error")
     }
 }
